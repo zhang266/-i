@@ -26,7 +26,13 @@
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul url reject
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul url reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/search\/related_queries\/answer url reject-dict
-
+^https:\/\/i\.87251865\.com\/20230417\/66296fcfd07e10baaae8e4541c76c108\.jps url reject-dict
+^https:\/\/js\.cqtanxyc\.com\/download\/1600_0\.html url reject-dict
+^https:\/\/liuliu\.boruicode\.com\/img\/danwu6\.png url reject-dict
+^https:\/\/89j3d\.vip\/back\/test\/222 url reject-dict
+^https:\/\/js\.9luo20231009\.live\/ack\? url reject-dict
+^https:\/\/imgsrc\.baidu\.com\/forum\/pic\/item\/8601a18b87d6277fa87f9d096e381f30e924fc96\.gif url reject-dict
+^https:\/\/raw\.githubusercontent\.com\/id77\/QuantumultX\/master\/task\/163GameVip\.cookie\.js url reject-dict
 
 
 # SCRIPT
@@ -98,4 +104,4 @@
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 
 # MITM
-hostname = *.cupid.iqiyi.com,103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,m-cloud.zhihu.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com
+hostname = *.cupid.iqiyi.com,103.41.167.226,103.41.167.234,103.41.167.235,103.41.167.236,103.41.167.237,118.89.204.198,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.m.jd.com,api.zhihu.com,app-api.smzdm.com,app.bilibili.com,appcloud2.zhihu.com,baike-api.smzdm.com,capis*.didapinche.com,cmsapi.dmall.com,fmapp.chinafamilymart.com.cn,haojia-api.smzdm.com,haojia.m.smzdm.com,hd.mina.mi.com,homepage-api.smzdm.com,m-cloud.zhihu.com,mi.gdt.qq.com,s-api.smzdm.com,wmapi.meituan.com,www.zhihu.com,zhiyou.m.smzdm.com,zhuanlan.zhihu.com,i.87251865.com,js.cqtanxyc.com,liuliu.boruicode.com,89j3d.vip,js.9luo20231009.live,imgsrc.baidu.com,raw.githubusercontent.com
